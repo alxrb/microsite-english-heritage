@@ -35,7 +35,7 @@ $transition-time: .25s;
 
 // general shadow
 @mixin shadow() { box-shadow: 0px 8px 44px 0px rgba($black, .2); }
-// .shadow { @include shadow; }
+.shadow { @include shadow; }
 
 // standard bg position, repeat, etc
 @mixin background-attributes {

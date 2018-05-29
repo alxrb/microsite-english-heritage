@@ -4,13 +4,13 @@
 <!-- pages that appear in the site navigation -->
 {% assign nav-pages = site.html_pages | where: 'nav', 'true' | sort: 'nav-order' %}
 
-<div class="site-nav {% if include.theme == "footer" %} site-nav--footer{% endif %}">
+<div class="site-nav js-sticky-nav {% if include.theme == "footer" %} site-nav--footer{% endif %}">
   <div class="site-nav__scroll-wrap">
     <div class="site-nav__wrap">
 
         {% for nav-page in nav-pages %}<span class="site-nav__item">
 
-          <a class="site-nav__link{% if nav-page.id == page.id or nav-page.id == page.group-parent %} is-current{% endif %}" href="{{site.baseurl}}{{nav-page.url}}">
+          <a class="site-nav__link{% if nav-page.id == page.id or nav-page.id == page.group-parent %} is-current{% endif %}" href="{% if page.id == "overview" and nav-page.id == "overview" %}{{site.baseurl}}{{nav-page.url}}#intro{% else %}{{site.baseurl}}{{nav-page.url}}{% endif %}">
             {% if nav-page.nav-title %}
               {{nav-page.nav-title}}
             {% else %}
@@ -18,8 +18,20 @@
             {% endif %}
           </a>
 
-          {% if nav-page.group and include.theme != "footer" %}
-            {% include nav/site-group.html group-id=nav-page.id %}
+          {% if nav-page.id == "overview" %}
+            <!-- loops through all sections within page -->
+            <div class="group-nav">
+            {% for section in site.data.sections %}
+              <span class="group-nav__item bg--img" style="background-image: url('{{site.img}}/content/{{section.id}}/nav-bg.jpg');">
+                <a class="group-nav__link group-nav__link--{{section.id}}" href="{{site.baseurl}}/#{{section.id}}">
+                  {% if section.nav-title %}
+                    {{section.nav-title}}
+                  {% else %}
+                    {{section.title}}
+                  {% endif %}
+                </a>
+              </span>{% endfor %}
+            </div>
           {% endif %}
 
         </span>{% endfor %}

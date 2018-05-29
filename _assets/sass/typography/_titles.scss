@@ -4,41 +4,46 @@
 
   // custom content headline
   font-family: $font-title-01;
-  &--xxxl   { font-size: $s8; }
-  &--xxl    { font-size: $s7; }
-  &--xl     { font-size: $s6; }
-  &--lg     { font-size: $s5; }
-  &--md     { font-size: $s4; }
-  &--sm     { font-size: $s3; }
-  &--xs     { font-size: $s2; }
-  &--xxs    { font-size: $s1; }
-  &--xxxs   { font-size: $s0; }
+  letter-spacing: -.025em;
+  line-height: 1.05;
+  &--xxxl   { font-size: $s9; }
+  &--xxl    { font-size: $s8; }
+  &--xl     { font-size: $s7; }
+  &--lg     { font-size: $s6; }
+  &--md     { font-size: $s5; }
+  &--sm     { font-size: $s4; }
+  &--xs     { font-size: $s3; }
+  &--xxs    { font-size: $s2; }
+  &--xxxs   { font-size: $s1; }
   @include bp($lg){
-    &--xxxl   { font-size: $s9; }
-    &--xxl    { font-size: $s8; }
-    &--xl     { font-size: $s7; }
-    &--lg     { font-size: $s6; }
-    &--md     { font-size: $s5; }
-    &--sm     { font-size: $s4; }
-    &--xs     { font-size: $s3; }
-    &--xxs    { font-size: $s2; }
-    &--xxxs   { font-size: $s1; }
+    &--xxxl   { font-size: $s11; }
+    &--xxl    { font-size: $s10; }
+    &--xl     { font-size: $s9; }
+    &--lg     { font-size: $s8; }
+    &--md     { font-size: $s7; }
+    &--sm     { font-size: $s6; }
+    &--xs     { font-size: $s5; }
+    &--xxs    { font-size: $s4; }
+    &--xxxs   { font-size: $s3; }
   }
+  &--color { color: $grey-dark; }
 
 }
 
 .sub-title {
 
   // custom content headline
-  font-family: $font-title-01;
-  font-size: $s2; // default size
-  &--lg     { font-size: $s4; }
-  &--sm     { font-size: $s0; }
-  @include bp($lg){
-    font-size: $s3; // default size
-    &--lg     { font-size: $s5; }
-    &--sm     { font-size: $s1; }
-  }
+  font-family: $font-title-02;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  font-size: $s4; // default size
+  // &--lg     { font-size: $s4; }
+  // &--sm     { font-size: $s0; }
+  // @include bp($lg){
+  //   font-size: $s3; // default size
+  //   &--lg     { font-size: $s5; }
+  //   &--sm     { font-size: $s1; }
+  // }
 
 }
 
@@ -78,9 +83,11 @@
 
   // custom banner headline
   font-family: $font-title-01;
-  text-transform: uppercase;
-  font-size: $s5;
-  @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s10; }
+  letter-spacing: -.033em;
+  line-height: .95;
+  font-size: 5.5rem;
+  @include bp($sm){ font-size: 7rem; }
+  @include bp($md){ font-size: 8rem; }
+  @include bp($xl){ font-size: 11rem; }
 
 }

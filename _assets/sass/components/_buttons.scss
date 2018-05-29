@@ -17,6 +17,12 @@
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
+  &--red { background-color: $eh-red;
+    &:hover { background-color: $eh-red-darker; }
+  }
+  &--beige { background-color: #cac0aa;
+    &:hover { background-color: #bfb7a6; }
+  }
   &--outline {
     color: inherit;
     &:before {
@@ -33,11 +39,27 @@
       @include transition;
     }
   }
-  &--outline-orange {
-    &:before { border-color: $orange; }
+  &--outline-red {
+    &:before { border-color: $eh-red; }
     &:hover {
-      background-color: $orange;
-      &:before { border-color: $orange; }
+      color: $white;
+      background-color: $eh-red;
+      &:before { border-color: $eh-red; }
+    }
+  }
+  &--outline-red-transparent {
+    background-color: rgba($eh-red, .66);
+    &:before { border-color: $eh-red; }
+    &:hover {
+      color: $white;
+      background-color: $eh-red;
+      &:before { border-color: $eh-red; }
+    }
+  }
+  &--outline-white {
+    &:before { border-color: rgba($white,.5); }
+    &:hover {
+      background-color: rgba($white,.33);
     }
   }
 }

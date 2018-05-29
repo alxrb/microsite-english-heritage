@@ -1,7 +1,7 @@
 // styles for the group drop down nav
 
-$group-nav-height: 224px;
-$group-nav-color:  $orange-darker;
+$group-nav-height: 350px;
+$group-nav-color:  $grey-darker;
 
 .group-nav {
   position: absolute;
@@ -17,13 +17,14 @@ $group-nav-color:  $orange-darker;
   transform: scaleY(0);
   transform-origin: top center;
   @include bp($nav-width-bp){
-    .no-touch & { display: flex; }
+    .no-touch & { display: flex; flex-wrap: wrap; }
     .site-nav__item:hover & { transform: scaleY(1); }
   }
   &__item {
     display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
+    // flex-grow: 1;
+    // flex-basis: 0;
+    width: 25%;
   }
   &__link {
     display: flex;
@@ -31,15 +32,15 @@ $group-nav-color:  $orange-darker;
     align-items: center;
     justify-content: center;
     padding: $s0;
-    font-family: $font-core;
-    font-size: $s0;
-    font-weight: 600;
+    font-family: $font-title-01;
+    letter-spacing: -.025em;
+    line-height: 1.05;
+    font-size: $s4;
+    font-weight: 400;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .15em;
     color: $white;
     @include transition;
-    &.is-current      { background-color: rgba($group-nav-color,.66); }
-    .no-touch &:hover { background-color: rgba($group-nav-color,1); }
+    &.is-current      { background-color: rgba($group-nav-color,.4); }
+    .no-touch &:hover { background-color: rgba($group-nav-color,.6); }
   }
 }

@@ -3,7 +3,7 @@
 
   {% include page/head.html %}
 
-  <body>
+  <body class="bg--lighter">
 
     {% include components/tracking.html %}
 
@@ -13,22 +13,59 @@
 
     <div class="content-spacing section-spacing">
 
+      <div id="intro" class="vpad--xxxl bg--light">
+        <div class="container">
+          <div class="width width--lg text--center">
+            <div class="text--xxl">
+              <p>Campaign Intro Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate maxime excepturi repudiandae fugiat sed blanditiis enim fugit illo quaerat ipsam aliquid labore, sit. Reprehenderit sunt, explicabo et dicta eum quia.</p>
+              <p>Why EH is good & why you should get annual membership Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore perferendis modi debitis id quisquam distinctio laborum praesentium ipsum sint possimus.</p>
+            </div>
+            <div class="space--md"></div>
+            <a href="http://www.english-heritage.org.uk/join/" class="btn btn--beige">Become A Member</a>
+          </div>
+        </div>
+      </div>
+
       <!-- loops through section file for page content -->
       {% for section in site.data.sections %}
-        <div id="{{section.id}}" class="js-nav-section vpad--xxxxl {% cycle 'bg--white', 'bg--light' %}">
+        <div id="{{section.id}}" class="js-nav-section vpad--xxxl bg__fixed">
+
+          <div class="bg__fixed-wrap">
+            <div class="bg__fixed-img" style="background-image: url('{{site.img}}/content/{{section.id}}/bg.jpg');"></div>
+          </div>
+
           <div class="container">
 
-            <div class="row row--valign-center row--gutters-lg row--6-6">
-              <div class="col">
-                <div class="title title--xxl">{{section.title}}</div>
-                <p>{{section.description}}</p>
-              </div>
-              <div class="col">
-                <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/img.jpg');"></div>
-              </div>
+            <div class="text--center">
+              <h2 class="title title--xxxl title--color">{{section.title}}</h2>
+              <p class="width width--lg text--lg">{{section.description}}</p>
+              {% if section.link %}
+                <div class="space--sm"></div>
+                <a href="{{section.link}}" class="btn btn--outline btn--outline-red btn--sm">Find Out More</a>
+              {% endif %}
             </div>
 
-            <div class="space--xxl"></div>
+            <div class="space--xxxl"></div>
+
+            {% for poi in section.pois %}
+              <div class="harvey{% cycle '', ' harvey--swap' %}">
+                <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{section.id}}/{{poi.id}}.jpg');">
+                  <a href="{{poi.link}}" class="harvey__link"></a>
+                </div>
+                <div class="harvey__text">
+                  <div class="h3 title title--md title--color">{{poi.title}}</div>
+                  <p class="text--lg">{{poi.description}}</p>
+                  <div class="space--md"></div>
+                  <a href="{{poi.link}}" class="btn btn--red">Find Out More</a>
+                </div>
+              </div>
+            {% endfor %}
+
+            <div class="space--xxxl"></div>
+
+            <h3 class="title title--lg text--center title--color">{{section.title}} Offers</h3>
+
+            <div class="space--lg"></div>
 
             <div class="row row--6-6 row--xxl-4-4-4">
               {% for offer in section.offers %}
@@ -44,6 +81,8 @@
       {% endfor %}
 
       {% include page/promo-campaign.html %}
+
+      {% include page/promo-competition.html %}
 
     </div>
 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include page/head.html %}
+
+  <body class="bg--fade bg--lighter" style="background-image: url('{{site.img}}/content/{{page.id}}/bg.jpg'); background-color: {{page.bg-color}};">
+
+    {% include components/tracking.html %}
+
+    {% include page/header.html %}
+
+    <div>
+      <div class="site-header__offset"></div>
+      {% include nav/site.html %}
+    </div>
+
+    <div class="content-spacing section-spacing">
+      {{content}}
+    </div>
+
+    {% include page/footer.html %}
+
+  </body>
+
+</html>

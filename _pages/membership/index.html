@@ -1,0 +1,59 @@
+---
+layout: content
+id: membership
+nav: true
+nav-order: 2
+title: Become a member
+intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex earum repellat, nobis, commodi excepturi ratione iste dolore autem perferendis officiis iusto voluptatem nihil voluptatum! Officiis dignissimos dicta, cupiditate amet perspiciatis?
+bg-color: "#33343d"
+
+features:
+
+  - id: feature-01
+    title: Unlimited entry to over 400 historic places
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam rem dolores omnis illo recusandae, natus similique. Libero in ducimus natus, debitis quidem ipsum aspernatur obcaecati provident quaerat sit, temporibus inventore delectus, autem similique error atque dolor maiores adipisci.
+
+  - id: feature-02
+    title: Hundreds of historical events
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam rem dolores omnis illo recusandae, natus similique. Libero in ducimus natus, debitis quidem ipsum aspernatur obcaecati provident quaerat sit, temporibus inventore delectus, autem similique error atque dolor maiores adipisci.
+
+  - id: feature-03
+    title: Members magazine & handbook
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam rem dolores omnis illo recusandae, natus similique. Libero in ducimus natus, debitis quidem ipsum aspernatur obcaecati provident quaerat sit, temporibus inventore delectus, autem similique error atque dolor maiores adipisci.
+---
+
+<div class="container">
+
+  <div class="text--center vpad--xxxxl  text--white">
+    <h1 class="title title--xxxl">{{page.title}}</h1>
+    <h2 class="sub-title">Now is the best time to join</h2>
+  </div>
+
+  <div class="boxpad--xl width width--xl bg--lighter text--center shadow">
+    <p class="text--xxl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p class="sign-up-code">Use code <strong class="text--bolder text--red">SECRET20</strong> for 20% off</p>
+    <div class="space--sm"></div>
+    <a href="http://www.english-heritage.org.uk/join/" class="btn btn--lg btn--red">Join Now</a>
+  </div>
+
+  <div class="space--xxxxl"></div>
+
+  {% for feature in page.features %}
+    <div class="bob{% cycle '', ' bob--swap' %}">
+      <div class="bob__img">
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
+      </div>
+      <div class="bob__text text--white">
+        <h3 class="title title--md">{{feature.title}}</h3>
+        <p class="text--normal">{{feature.description}}</p>
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="space--xxxl"></div>
+  <div class="space--xl"></div>
+
+</div>
+
+
+{% include page/promo-competition.html %}

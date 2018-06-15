@@ -1,3 +1,8 @@
 <a id="track-partner-logo{{include.placement | prepend: '-'}}" class="logo logo--partner{% if include.small %} logo--partner-sm{% endif %}" href="{{site.client.link}}">
   <img src="{{site.img}}/logo/partner.svg" alt="{{site.client.name}} Logo">
 </a>
+{% if page.extra-logo %}
+  <a id="track-abel-and-cole-logo{{include.placement | prepend: '-'}}" class="logo logo--abel-and-cole{% if include.small %} logo--abel-and-cole-sm{% endif %}" href="https://www.abelandcole.co.uk/">
+    <img src="{{site.img}}/logo/abel-and-cole.svg" alt="Abel & Cole Logo">
+  </a>
+{% endif %}

@@ -3,35 +3,53 @@ layout: content
 id: membership
 nav: true
 nav-order: 2
-title: Become a member
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex earum repellat, nobis, commodi excepturi ratione iste dolore autem perferendis officiis iusto voluptatem nihil voluptatum! Officiis dignissimos dicta, cupiditate amet perspiciatis?
-bg-color: "#33343d"
+title: Become a Member
+intro: Membership with English Heritage offers you unlimited access to over 400 historical places with over 800 events for a whole year.
+bg-color: "#242518"
 
 features:
 
-  - id: feature-01
+  - id: places
     title: Unlimited entry to over 400 historic places
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam rem dolores omnis illo recusandae, natus similique. Libero in ducimus natus, debitis quidem ipsum aspernatur obcaecati provident quaerat sit, temporibus inventore delectus, autem similique error atque dolor maiores adipisci.
+    description: >
+      <p>English Heritage cares for more than 400 historic places – from world-famous prehistoric sites to grand medieval castles, and from Roman forts on the edges of the empire to Cold War bunkers. As soon as you join, you’ll be able to interact with 5,000 years of England’s history, all year round.</p>
 
-  - id: feature-02
-    title: Hundreds of historical events
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam rem dolores omnis illo recusandae, natus similique. Libero in ducimus natus, debitis quidem ipsum aspernatur obcaecati provident quaerat sit, temporibus inventore delectus, autem similique error atque dolor maiores adipisci.
+  - id: events
+    title: Hundreds of historic events
+    description: >
+      <p>Evade the clash of swords, re-live battles and watch as soldiers fight head on in our dramatic re- enactments. Step back in time and discover life through the ages, from the sights and sounds of the medieval encampments to the discoveries made in Victorian Britain. Little ones can get hands-on with history with craft workshops and discovery trails for intrepid adventurers.</p>
 
-  - id: feature-03
-    title: Members magazine & handbook
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam rem dolores omnis illo recusandae, natus similique. Libero in ducimus natus, debitis quidem ipsum aspernatur obcaecati provident quaerat sit, temporibus inventore delectus, autem similique error atque dolor maiores adipisci.
+  - id: kids
+    title: Kids go free
+    description: >
+      <p>Step outside the classroom and see eyes light up as kids get hands-on with history. As part of your membership, you can take up to six children under 19 for free with every adult Member, as long as they’re in your family group. They’ll explore castle secrets, dress-up in authentic clothing and meet historical characters. There’s plenty to do, come rain or shine. With over 400 exciting places to visit across the country, you’ll never be short of great value days out with the whole family.</p>
+
+  - id: magazine
+    title: Members’ Magazine and handbook
+    description: >
+      <p>As a Member, you will receive the English Heritage handbook for free every year. Inside the handbook you’ll find all the inspiration and information you need to plan an entertaining day out, take a trip to a previously unseen site, discover recently opened rooms and exhibitions and gain a fresh insight into the past.</p>
+      <p>Delivered four times a year, the exclusive Members’ Magazine is packed with inspiration and ideas for making the most of your English Heritage membership.</p>
+
+  - id: attractions
+    title: Discounted attractions and exclusive offers
+    description: >
+      <p>Included with membership, you can enjoy free admission (half price for Members in their first year) to hundreds more historic places cared for by Cadw, Historic Scotland, OPW Heritage Ireland, Manx National Heritage and Heritage New Zealand.</p>
+      <p>Plus, Members receive discounted entry at our associated attractions, ranging from Museums and stunning Georgian Gothic architecture, to stately World Heritage Sites and inspiring Roman Palaces.</p>
 ---
 
 <div class="container">
 
   <div class="text--center vpad--xxxxl  text--white">
     <h1 class="title title--xxxl">{{page.title}}</h1>
-    <h2 class="sub-title">Now is the best time to join</h2>
+    <h2 class="sub-title">and discover over 5,000 years of history</h2>
   </div>
 
   <div class="boxpad--xl width width--xl bg--lighter text--center shadow">
-    <p class="text--xxl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p class="sign-up-code">Use code <strong class="text--bolder text--red">SECRET20</strong> for 20% off</p>
+
+    <p class="text--xxl">{{page.intro}}</p>
+    <p class="text--xxl">Stand in the places history happened.</p>
+    <p class="text--xxl">Enjoy an exclusive 20% off annual membership only for Secret Escapes members.</p>
+    <p class="sign-up-code">Enter code <strong class="text--bolder text--red">SECRET20</strong> to claim</p>
     <div class="space--sm"></div>
     <a href="http://www.english-heritage.org.uk/join/" class="btn btn--lg btn--red">Join Now</a>
   </div>
@@ -41,11 +59,13 @@ features:
   {% for feature in page.features %}
     <div class="bob{% cycle '', ' bob--swap' %}">
       <div class="bob__img">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');"></div>
       </div>
       <div class="bob__text text--white">
-        <h3 class="title title--md">{{feature.title}}</h3>
-        <p class="text--normal">{{feature.description}}</p>
+        <h3 class="title title--sm">{{feature.title}}</h3>
+        <div class="space--xs text--normal">{{feature.description}}</div>
+        <div class="space--md"></div>
+        <a href="http://www.english-heritage.org.uk/join/" class="btn btn--sm btn--outline btn--outline-red">Join Now</a>
       </div>
     </div>
   {% endfor %}

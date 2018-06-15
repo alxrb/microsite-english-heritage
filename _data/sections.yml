@@ -1,6 +1,6 @@
 - id: north-east
   title: North East
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  description: The North East offers some truly magical outdoor adventures. The serene beauty of the Northumberland Coast and National Park area treat for any northern wanderer, yet the land is steeped in a fascinating history – visit Roman forts and grand mansions.
   link: http://www.english-heritage.org.uk/visit/northeast/
 
   pois:
@@ -55,7 +55,7 @@
 
 - id: north-west
   title: North West
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  description: The Pennines, the Dales and the beguiling landscape of the Lake District all make the North West a truly unforgettable English holiday destination. However, hidden amongst all the natural splendour are reminders of the turbulent past that frames English history – discover it for yourself.
   link: http://www.english-heritage.org.uk/visit/northwest/
 
   pois:
@@ -110,14 +110,14 @@
 
 - id: east
   title: East
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  description: The east of England shelters some truly remarkable landscapes. Whether you’re exploring the pretty, learned streets of Cambridge or gliding down the Norfolk Broads, don’t miss the grand homes and towering castles that dot this compelling landscape.
   link: http://www.english-heritage.org.uk/visit/eastofengland/
 
   pois:
 
     - id: audley-end-house-gardens
       title: Audley End House & Gardens
-      description: This grand mansion set within luscious gardens is a fine example of lavish Jacobean architecture, an unmissable landmark in the Essex countryside. The vast estate is graced with enviable gardens, designed by famed landscaper Lancelot ‘Capability’ Brown. They make for tranquil walks in the shadow of this opulent house, before heading indoors and enjoying fine state rooms, intimate dressing rooms, extravagant libraries and the ornate Great Hall. Don’t miss meeting the staff at the Victorian Service Wing, or the horses at the Victorian stable yard.
+      description: This grand mansion set within luscious gardens is a fine example of lavish Jacobean architecture, an unmissable landmark in the Essex countryside. The vast estate is graced with enviable gardens, designed by famed landscaper Lancelot ‘Capability’ Brown. They make for tranquil walks in the shadow of this opulent house, before heading indoors and enjoying fine state rooms, intimate dressing rooms, extravagant libraries and the ornate Great Hall. Don’t miss meeting the historical characters at the Victorian Service Wing (only at weekends) or the horses at the Victorian stable yard.
       link: http://www.english-heritage.org.uk/visit/places/audley-end-house-and-gardens/
 
     - id: framlingham-castle
@@ -165,7 +165,7 @@
 
 - id: yorkshire
   title: Yorkshire
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  description: Medieval market towns, the rolling, eponymous Dales and irresistable coastal towns make Yorkshire a truly remarkable English destination for fortuitous escape. Discover the gothic home of Dracula, at odds with the quaint town it watches over, or seek glorious views atop a vast, beguiling castle.
   link: http://www.english-heritage.org.uk/visit/yorkshireandthehumber/
 
   pois:
@@ -220,17 +220,17 @@
 
 - id: midlands
   title: Midlands
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  description: The heart of England offers a myriad of enviable country escapes, from the unmissable Severn Gorge to the northern edge of the Cotswolds or southern hills of the Peak District. Grand castles protect this important stretch of middle England.
 
   pois:
 
     - id: kenilworth-castle-elizabethan-gardens
       title: Kenilworth Castle & Elizabethan Gardens
-      description: The deep red ruins of Kenilworth inspire awe in all who visit – an effect not lost on Robert Dudley. He presided over grand embellishments to famously woo Elizabeth I, who spent more time here than with any other courtier. Yet the famous sandstone towers date all the way back to Norman times, when Kenilworth was a strategic castle passed from king to rival, enduring one of the lengthiest medieval sieges in history. Now, discover the grand relic of the Great Hall, the imposing Norman keep, and scale the dizzying heights of the tower built to win over Elizabeth I.
+      description: The deep red ruins of Kenilworth Castle inspire awe in all who visit – an effect not lost on Robert Dudley. He presided over grand embellishments to famously woo Elizabeth I, who spent more time here than with any other courtier. Yet the famous sandstone towers date all the way back to Norman times, when Kenilworth Castle was strategically passed from king to rival, enduring one of the lengthiest medieval sieges in history. Now, discover the grand relic of the Great Hall, the imposing Norman keep, and scale the dizzying heights of the tower built to win over Elizabeth I.
       link: http://www.english-heritage.org.uk/visit/places/kenilworth-castle/
 
     - id: bolsover
-      title: Bolsover
+      title: Bolsover Castle
       description: Though its roots can be traced back to one of William the Conqueror's knights, William Peveril, the castle now perched high above the Vale of Scarsdale is a fine example of Stuart opulence and excess. Head for the Little Castle built by William Cavendish, who’s son and namesake finished the interiors and turned it into a lavish palace of indulgence. This playboy and poet courtier famously entertained King Charles I and his queen, spending a vast fortune – explore the lavishly decorated Little Castle and take the wall walk for glorious views over the vale. See Cavalier Horsemanship displays before exploring the remarkable Terrace Range.
       link: http://www.english-heritage.org.uk/visit/places/bolsover-castle/
 
@@ -274,7 +274,7 @@
 
 - id: south
   title: South
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  description: From ancient monoliths to vast Victorian estates, England’s South is an area which offers a diverse history and truly beguiling landscapes. Discover long forgotten ancestors, or live like royalty as you explore the south’s fascinating history.
 
   pois:
 
@@ -328,7 +328,7 @@
 
 - id: south-east
   title: South East
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  description: The rolling Kent Downs, the iconic white cliffs and the gorgeous coastline typify most traveller’s visits to the South East of England. Yet this is a land of battles and wars, of invaders and knights and some of the most important changes to the English landscape.
   link: http://www.english-heritage.org.uk/visit/southeast/
 
   pois:
@@ -383,19 +383,19 @@
 
 - id: south-west
   title: South West
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  description: England’s South West offers one of the most picturesque coastal landscapes in the country. Dramatic cliffs and secluded bays make the area irresistible – and one that needed defending, with spellbinding castles dotted around the cliff edges.
   link: http://www.english-heritage.org.uk/visit/southwest/
 
   pois:
 
     - id: pendennis-castle
       title: Pendennis Castle
-      description: On an elevated spit facing the ocean sits Pendennis Castle, a strategic fort set to protect the harbour of Falmouth. Pendennis was built by Henry VIII in 1539, during a vast period of fortress building – since declaring himself independent of the Catholic church, the whole of Catholic Europe was threatening attack. Reinforced in the years to come, the true test of the stronghold’s defenses came during the Civil War where Parliamentarians laid siege to the castle for three long months. Now, hear the dramatic blast of historic guns before discovering the castle’s role in WW1 at the new exhibition, Fortress Falmouth and the First World War.
+      description: On an elevated spit facing the ocean sits Pendennis Castle, a strategic fort set to protect the harbour of Falmouth. Pendennis Castle was built by Henry VIII in 1539, during a vast period of fortress building – since declaring himself independent of the Catholic church, the whole of Catholic Europe was threatening attack. Reinforced in the years to come, the true test of the stronghold’s defenses came during the Civil War where Parliamentarians laid siege to the castle for three long months. Now, hear the dramatic blast of historic guns and discover newly created sights, sounds and tours which have breathed fresh life into the story of this spectacularly sited castle.
       link: http://www.english-heritage.org.uk/visit/places/pendennis-castle/
 
     - id: tintagel-castle
       title: Tintagel Castle
-      description: Tintagel is one of the most romantic, evocative ruins in the country, a famed Cornish beauty spot that lingers thick with Arthurian legend and local myths. The castle ruins cling to the rough headland that dramatically falls to the sea, making for a truly spellbinding site to explore. Dating back to the 13th century, with a much older Dark Age settlement also uncovered, Tintagel Castle offers a wealth of history ripe for unpicking, in a setting that is truly breathtaking in its beauty. Discover the Legend of King Arthur for yourself, before heading down the steep steps to the picturesque beach below.
+      description: Tintagel is one of the most romantic, evocative ruins in the country, a famed Cornish beauty spot that lingers thick with Arthurian legend and local myths. The castle ruins cling to the rough headland that dramatically falls to the sea, making for a truly spellbinding site to explore. Dating back to the 13th century, with a much older Early Medieval settlement also uncovered, Tintagel Castle offers a wealth of history ripe for unpicking, in a setting that is truly breathtaking in its beauty. Discover the legend of King Arthur for yourself, before heading down the steep steps to the picturesque beach below.
       link: http://www.english-heritage.org.uk/visit/places/tintagel-castle/
 
   offers:

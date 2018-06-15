@@ -19,4 +19,12 @@
     max-width: 125px;
     &-sm { max-width: 110px; }
   }
+  &--abel-and-cole { // max-width for this is about 150x46px
+    max-width: 125px;
+    transform: translateY(-3px); // logo alignment nudge
+    &-sm {
+      max-width: 110px;
+      transform: translateY(-5px); // logo alignment nudge
+    }
+  }
 }

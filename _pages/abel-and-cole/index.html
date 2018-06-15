@@ -1,0 +1,73 @@
+---
+layout: content
+id: food
+nav: true
+nav-order: 3
+title: Abel & Cole
+intro: You’ve seen the best of England’s story, now discover its best produce. With luxury stays and days traipsing through historic sites, you’re bound to whip up an appetite. Luckily, there’s organic foodies Abel & Cole to keep you going.
+bg-color: "#1a1f14"
+extra-logo: true
+
+features:
+
+  - id: albury-vineyard
+    title: Albury Vineyard
+    description: Albury Organic Vineyard, headed up by Nick Wenman and his daughter Lucy, is situated on the southern slopes of the North Downs near Guildford in an area of outstanding natural beauty. Biodynamic techniques are used to enhance the quality of fruit, which gives the wines a special flavour. The vines are the traditional Champagne varietals of Chardonnay, Pinot Noir and Pinot Meunier, as well as some Seyval and Pinot Gris.
+    link: https://www.abelandcole.co.uk/producer/61/
+
+  - id: broadward-hall-farm
+    title: Broadward Hall Farm
+    description: Father-son team Colin and Ben Andrews grow all sorts of veg for us throughout the year, and they’re real maestros when it comes to leafy greens. In fact, the kings of kale, is what we call them. Colin’s grandad first worked the land on Broadward Farm, in Herefordshire, back in the 1930s, so you could say growing brilliant veg runs in the family. Colin says, ‘You can't beat a good lettuce.’ Well, we think Colin’s kale is pretty darn good too.
+    link: https://www.abelandcole.co.uk/producer/208/
+
+  - id: wood-green-farm
+    title: Wood Green Farm
+    description: Chris Labdon has been tending his organic chickens to the highest standards of welfare on his Wood Green farm in Devon for years and years. Chris’ chickens take months, not weeks, to grow. Their feet are made for walking (and that’s just what they’ll do). These chooks have plenty of time and space to explore the world, scratching and clucking about from first thing in the morning till last thing at night. All this time spent growing means they develop their muscles properly, so from breast to the thighs and wings...this is chicken that tastes like chicken. Some of the things Compassion in World Farming look for when bestowing a Good Chicken Award, apart from slow-growing birds, are lower stock density, and also “enrichment provision”. This means access to natural light, straw bales, perches, pecking objects and shelter outdoors. All of which Chris’ chickens enjoy in abundance. It's no surprise then that Chris received a Good Chicken Award from CWIF recently.
+    link: https://www.abelandcole.co.uk/producer/202/
+---
+
+<div class="container">
+
+  <div class="text--center vpad--xxxxl text--white">
+    <h1 class="title title--xxxl">England’s <br>Foodie Heritage</h1>
+  </div>
+
+  <div class="boxpad--xl width width--xl bg--lighter text--center shadow text--xxl">
+    <p>{{page.intro}}</p>
+    <p>Abel & Cole have 30 years of organic knowhow, sourcing the best of the fields and workshops the country has to offer. Even better, they’ll bundle it all up in a box and deliver it right to your door.</p>
+    <p>Working with growers, makers and bakers across the country, Abel & Cole handpick the finest produce, from fruit & veg boxes, to Recipe Boxes and plenty more to tickle the fancy of any appetite. If that weren’t enough, the bring it all in minimal, returnable recyclable packaging in yellow vans that use eco routes to spend less time on the roads.</p>
+  </div>
+
+  <div class="space--xxxl"></div>
+
+  <div class="text--center text--white">
+    <h2 class="title title--lg">Meet the producers</h2>
+    <div class="space--xxl"></div>
+  </div>
+
+  <div class="row row--xl-6-6 row--gutters-lg text--white text--center">
+    {% for feature in page.features %}
+      <div class="col">
+        <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');">
+          <a href="{{feature.link}}" class="bg-img__link"></a>
+        </div>
+        <div class="space--md"></div>
+        <h3 class="title title--sm">{{feature.title}}</h3>
+        <p class="text--normal">{{feature.description}}</p>
+        <div class="space--sm"></div>
+        <a href="{{feature.link}}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
+        <div class="space--xl"></div>
+      </div>
+    {% endfor %}
+  </div>
+
+
+
+
+  <div class="space--xxxl"></div>
+  <div class="space--xl"></div>
+
+</div>
+
+
+{% include page/promo-competition.html %}

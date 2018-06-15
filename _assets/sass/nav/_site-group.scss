@@ -40,7 +40,8 @@ $group-nav-color:  $grey-darker;
     text-align: center;
     color: $white;
     @include transition;
-    &.is-current      { background-color: rgba($group-nav-color,.4); }
-    .no-touch &:hover { background-color: rgba($group-nav-color,.6); }
+    background-color: rgba($group-nav-color,.6);
+    &.is-current      { background-color: rgba($group-nav-color,.8); }
+    .no-touch &:hover { background-color: rgba($group-nav-color,1); }
   }
 }

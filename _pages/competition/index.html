@@ -2,43 +2,67 @@
 layout: content
 id: competition
 nav: true
-nav-order: 3
+nav-order: 4
 nav-title: competition
-title: Win SE Voucher & EH Pass
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex earum repellat, nobis, commodi excepturi ratione iste dolore autem perferendis officiis iusto voluptatem nihil voluptatum! Officiis dignissimos dicta, cupiditate amet perspiciatis?
-bg-color: "#161e06"
+title: Win English Heritage membership, £100 Secret Escapes voucher and Abel&nbsp;&&nbsp;Cole organic boxes
+intro: We’re giving away five prize packages including annual memberships for English Heritage worth £99, £100 Secret Escapes vouchers and a month’s supply of delicious organic Abel & Cole boxes. That means you can book yourself a luxurious weekend away in any number of spellbinding English destinations and unravel over 5,000 years of history with unlimited access to over 400 English Heritage places for a year, returning home to fine English produce at your doorstep. Be one of the lucky five by entering below!
+bg-color: "#222325"
+extra-logo: true
+
+
+prize-detail:
+
+  - id: eh
+    title: Annual Membership
+    description: Enjoy unlimited access to over 400 English Heritage sites and stand in the places history happened.
+
+  - id: se
+    title: £100 Secret Escapes Voucher
+    description: Book yourself a superlative getaway in England at unique and luxurious digs across the country.
+
+  - id: ac
+    title: Abel & Cole organic boxes
+    description: The finest organic fruit & veg delivered straight to your door. Receive a seasonal box of your choice every week for four weeks.
+
+
+
 ---
 
 <div class="container text--white">
-
-  <div class="text--center vpad--xxxxl">
-    <h1 class="title title--xxl">{{page.title}}</h1>
-    <div class="width width--lg">
-      <p class="text--xxl text--normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <div class="space--xxxxl"></div>
+  <div class="space--xxl"></div>
+  <div class="text--center">
+    <h1 class="title title--xl">{{page.title}}</h1>
+    <div class="width width--lg space--sm">
+      <p class="text--xxl text--normal">{{page.intro}}</p>
       <div class="space--md"></div>
       <a href="#entry-form" class="btn btn--lg btn--red">Enter Now</a>
     </div>
   </div>
-
-  <div class="row row--6-6">
-    <div class="col text--center">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      <div class="space--sm"></div>
-      <div class="title title--md">£100 SE Voucher</div>
-      <p class="text--normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ab reprehenderit illo, deleniti nam laborum. Illo blanditiis non omnis, modi magni doloremque nam ipsa nemo, minus, odio eveniet nulla iste error. Dicta, voluptas alias rem accusamus sequi! Molestiae, corporis, fugit.</p>
-    </div>
-    <div class="col text--center">
-      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      <div class="space--sm"></div>
-      <div class="title title--md">EH Annual Membership</div>
-      <p class="text--normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ab reprehenderit illo, deleniti nam laborum. Illo blanditiis non omnis, modi magni doloremque nam ipsa nemo, minus, odio eveniet nulla iste error. Dicta, voluptas alias rem accusamus sequi! Molestiae, corporis, fugit.</p>
-    </div>
-  </div>
-
-  <div class="space--xxxl"></div>
-  <div class="space--xl"></div>
-
 </div>
+
+<div class="container text--white">
+  <div class="row row--xl-6-6 row--xxl-4-4-4">
+    {% for item in page.prize-detail %}
+      <div class="col text--center">
+        <div class="width width--md">
+          <div class="bg-img bg-img--1-1 bg-img--xl-2-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg');">
+            <div class="bg-img__content">
+              <div class="title title--md">{{item.title}}</div>
+            </div>
+            <div class="bg-img__bg-overlay"></div>
+          </div>
+          <div class="space--sm"></div>
+          <p class="text--normal text--xxl">{{item.description}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="space--xxxl"></div>
+<div class="space--xl"></div>
+
 
 <div id="entry-form" class="bg--light vpad--xxl">
   <div class="container container--xxl text--center">

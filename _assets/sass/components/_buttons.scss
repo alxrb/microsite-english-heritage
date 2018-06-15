@@ -56,6 +56,14 @@
       &:before { border-color: $eh-red; }
     }
   }
+  &--outline-grey-transparent {
+    background-color: rgba($grey-dark, .5);
+    &:before { border-color: $grey; }
+    &:hover {
+      color: $white;
+      background-color: rgba($grey-dark, .9);
+    }
+  }
   &--outline-white {
     &:before { border-color: rgba($white,.5); }
     &:hover {

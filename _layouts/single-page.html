@@ -17,19 +17,19 @@
         <div class="container">
           <div class="width width--lg text--center">
             <div class="text--xxl">
-              <p>{{page.intro}}</p>
+              <p>{{site.description}}</p>
               <p>We’ve compiled our favourite English Heritage sites by region, each offering a packed events calendar and the chance to unpick the remarkable history of the country. Purchase a ticket on entry, or save with an annual membership – get to the heart of England’s history across more than 400 heritage sites.</p>
               <p>Use the code <strong>SECRET20</strong> to enjoy an exclusive 20% Secret Escapes discount on annual membership.</p>
             </div>
             <div class="space--md"></div>
-            <a href="http://www.english-heritage.org.uk/join/" class="btn btn--beige">Become A Member</a>
+            <a href="http://www.english-heritage.org.uk/join/" class="btn btn--beige" id="track-eh-join-intro">Become A Member</a>
           </div>
         </div>
       </div>
 
       <!-- loops through section file for page content -->
       {% for section in site.data.sections %}
-        <div id="{{section.id}}" class="js-nav-section vpad--xxxl bg__fixed">
+        <div id="{{section.id}}" class="js-nav-section vpad--xxxxl bg__fixed">
 
           <div class="bg__fixed-wrap">
             <div class="bg__fixed-img" style="background-image: url('{{site.img}}/content/{{section.id}}/bg.jpg');"></div>
@@ -39,10 +39,10 @@
 
             <div class="text--center">
               <h2 class="title title--xxxl title--color">{{section.title}}</h2>
-              <p class="width width--lg text--lg">{{section.description}}</p>
+              <p class="width width--lg text--lg text--full-black">{{section.description}}</p>
               {% if section.link %}
                 <div class="space--sm"></div>
-                <a href="{{section.link}}" class="btn btn--outline btn--outline-red btn--sm">Find Out More</a>
+                <a href="{{section.link}}" class="btn btn--outline btn--outline-red btn--sm" id="track-eh-region-{{section.id}}">Find Out More</a>
               {% endif %}
             </div>
 
@@ -51,13 +51,13 @@
             {% for poi in section.pois %}
               <div class="harvey{% cycle '', ' harvey--swap' %}">
                 <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{section.id}}/{{poi.id}}.jpg');">
-                  <a href="{{poi.link}}" class="harvey__link"></a>
+                  <a href="{{poi.link}}" class="harvey__link" id="track-eh-poi-image-{{poi.id}}"></a>
                 </div>
                 <div class="harvey__text">
                   <div class="h3 title title--md title--color">{{poi.title}}</div>
-                  <p class="text--lg">{{poi.description}}</p>
+                  <p class="text--lg text--full-black">{{poi.description}}</p>
                   <div class="space--md"></div>
-                  <a href="{{poi.link}}" class="btn btn--red">Find Out More</a>
+                  <a href="{{poi.link}}" class="btn btn--red" id="track-eh-poi-btn-{{poi.id}}">Find Out More</a>
                 </div>
               </div>
             {% endfor %}
@@ -68,14 +68,22 @@
 
             <div class="space--lg"></div>
 
-            <div class="row row--6-6 row--xxl-4-4-4">
-              {% for offer in section.offers %}
-                <div class="col">
-                  {% include offer/offer-sm.html %}
-                </div>
-              {% endfor %}
-            </div>
+            {% assign offers = section.offers %}
+            {% assign offer-amount = offers | size %}
 
+            {% if offer-amount == 1 %}
+              {% for offer in section.offers %}
+                {% include offer/offer-sm.html %}
+              {% endfor %}
+            {% else %}
+              <div class="row row--xl-6-6">
+                {% for offer in section.offers %}
+                  <div class="col">
+                    {% include offer/offer-sm.html %}
+                  </div>
+                {% endfor %}
+              </div>
+            {% endif %}
 
           </div>
         </div>
@@ -86,7 +94,6 @@
       {% include page/promo-competition.html %}
 
     </div>
-
 
     {% include page/footer.html %}
 

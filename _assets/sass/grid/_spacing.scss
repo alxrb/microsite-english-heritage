@@ -111,6 +111,11 @@
 // spacing for the main content blocks on the site
 .section-spacing {
   .bob + .bob { padding-top: $s10; }
-  .harvey + .harvey { padding-top: $s11; }
+  .harvey + .harvey {
+    padding-top: $s9;
+    @include bp($xxl) {
+      padding-top: $s11;
+    }
+  }
   .container + .container { padding-top: $s11; }
 }

@@ -5,7 +5,7 @@ client:
   link: http://www.english-heritage.org.uk/
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Whether you’re heading to quintessential English countryside for a superlative getaway, or you fancy a day trip away from home to fill a sunny weekend, discover over 5,000 years of history with English Heritage and Secret Escapes.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site

@@ -51,7 +51,7 @@ features:
     <p class="text--xxl">Enjoy an exclusive 20% off annual membership only for Secret Escapes members.</p>
     <p class="sign-up-code">Enter code <strong class="text--bolder text--red">SECRET20</strong> to claim</p>
     <div class="space--sm"></div>
-    <a href="http://www.english-heritage.org.uk/join/" class="btn btn--lg btn--red">Join Now</a>
+    <a href="http://www.english-heritage.org.uk/join/" class="btn btn--lg btn--red" id="track-eh-join-membership-intro">Join Now</a>
   </div>
 
   <div class="space--xxxxl"></div>
@@ -59,13 +59,15 @@ features:
   {% for feature in page.features %}
     <div class="bob{% cycle '', ' bob--swap' %}">
       <div class="bob__img">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');"></div>
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');">
+          <a href="http://www.english-heritage.org.uk/join/" class="bg-img__link" id="track-eh-join-membership-{{feature.id}}-image"></a>
+        </div>
       </div>
       <div class="bob__text text--white">
         <h3 class="title title--sm">{{feature.title}}</h3>
         <div class="space--xs text--normal">{{feature.description}}</div>
         <div class="space--md"></div>
-        <a href="http://www.english-heritage.org.uk/join/" class="btn btn--sm btn--outline btn--outline-red">Join Now</a>
+        <a href="http://www.english-heritage.org.uk/join/" class="btn btn--sm btn--outline btn--outline-red" id="track-eh-join-membership-{{feature.id}}-btn">Join Now</a>
       </div>
     </div>
   {% endfor %}

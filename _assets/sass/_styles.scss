@@ -1,5 +1,9 @@
 // general styles for the project that wouldn't be a reuseable component
 
 .sign-up-code {
-  font-size: $s4;
+  font-size: $s3;
+  line-height: 1.2;
+  @include bp($lg){
+    font-size: $s4;
+  }
 }

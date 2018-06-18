@@ -107,6 +107,7 @@ gulp.task('build-main-js', function(cb) {
   // --------------------
 
     // plugins
+    './_assets/js/_components/modernizr.js',
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/jquery-countdown/dist/jquery.countdown.min.js',
     './node_modules/waypoints/lib/jquery.waypoints.min.js',
@@ -117,8 +118,8 @@ gulp.task('build-main-js', function(cb) {
     // components
     './_assets/js/_components/standard.js',
     './_assets/js/_components/offer-countdown.js',
-    './_assets/js/_components/modal.js',
-    './_assets/js/_components/modal-nav.js',
+    // './_assets/js/_components/modal.js',
+    // './_assets/js/_components/modal-nav.js',
     './_assets/js/_components/sticky-nav.js',
 
     // custom js for project

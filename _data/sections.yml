@@ -17,36 +17,15 @@
 
   offers:
 
-    - title: Spectacular Oslo & Bergen break with optional fjord tour
-      id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-      location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-      description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-      price: 459
-      price-description: per person for 4 nights
-      saved: 37
-      expires: 2020/04/14
-      link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-    - title: Farris Bad
-      id: farris-bad
-      location: Larvik, Norway
-      description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-      price: 214
+    - title: Battlesteads Hotel & Restaurant
+      id: battlesteads-hotel-restaurant
+      location: Hexham, Northumberland
+      description: A small, eco-friendly Northumberland hotel in a picture-perfect village on the edge of a national park, with breakfast and an eight-course tasting menu dinner
+      price: 89
       price-description: per room per night
-      saved: 33
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
-
-    - title: First Hotel Marin
-      id: first-hotel-marin
-      location: Bergen, Norway
-      description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-      price: 48
-      price-description: per room per night
-      saved: 43
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
-
+      saved: 48
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/battlesteads-hotel-and-restaurant-hexham-northumberland/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
 
 ################################################################################
@@ -72,35 +51,24 @@
 
   offers:
 
-    - title: Spectacular Oslo & Bergen break with optional fjord tour
-      id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-      location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-      description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-      price: 459
-      price-description: per person for 4 nights
-      saved: 37
-      expires: 2020/04/14
-      link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
+    - title: Whitbarrow Hotel
+      id: whitbarrow-hotel
+      location: Penrith, Lake District
+      description: A suite stay at a cosy hotel in the Lake District, with views of the beautiful Blencathra Fell, including breakfast and a glass of prosecco on arrival
+      price: 99
+      price-description: per suite per night
+      saved: 49
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/whitbarrow-hotel-penrith-lake-district1/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
-    - title: Farris Bad
-      id: farris-bad
-      location: Larvik, Norway
-      description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-      price: 214
-      price-description: per room per night
-      saved: 33
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
-
-    - title: First Hotel Marin
-      id: first-hotel-marin
-      location: Bergen, Norway
-      description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-      price: 48
-      price-description: per room per night
-      saved: 43
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+    - title: Parson Lee Farm Glamping
+      id: parson-lee-farm-glamping
+      location: Trawden, Lancashire
+      description: Adults-only glamping in a luxury yurt among beautiful countryside straight from the pages of a Brontë sister classic
+      price: 59
+      price-description: per yurt per night
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/parson-lee-farm-glamping-trawden-lancashire/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
 
 
@@ -127,35 +95,25 @@
 
   offers:
 
-    - title: Spectacular Oslo & Bergen break with optional fjord tour
-      id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-      location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-      description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-      price: 459
-      price-description: per person for 4 nights
-      saved: 37
-      expires: 2020/04/14
-      link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-    - title: Farris Bad
-      id: farris-bad
-      location: Larvik, Norway
-      description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-      price: 214
+    - title: Barns Hotel
+      id: barns-hotel
+      location: Bedford, Bedfordshire
+      description: A country hotel in a 16th-century building overlooking the River Great Ouse, with full English breakfast and either afternoon tea or a bottle of prosecco and dinner allowance
+      price: 89
       price-description: per room per night
-      saved: 33
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
+      saved: 62
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/barns-hotel-bedford-bedfordshire/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
-    - title: First Hotel Marin
-      id: first-hotel-marin
-      location: Bergen, Norway
-      description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-      price: 48
+    - title: The Kings Head Hotel
+      id: the-kings-head-hotel
+      location: Great Bircham, Norfolk
+      description: A country hotel in a quaint village near the Sandringham Estate, with breakfast and two-course dinner
+      price: 105
       price-description: per room per night
-      saved: 43
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+      saved: 30
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/the-kings-head-hotel-great-bircham-norfolk/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
 
 
@@ -182,35 +140,25 @@
 
   offers:
 
-    - title: Spectacular Oslo & Bergen break with optional fjord tour
-      id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-      location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-      description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-      price: 459
-      price-description: per person for 4 nights
-      saved: 37
-      expires: 2020/04/14
-      link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-    - title: Farris Bad
-      id: farris-bad
-      location: Larvik, Norway
-      description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-      price: 214
+    - title: The Kimberley Hotel
+      id: the-kimberley-hotel
+      location: Harrogate, Yorkshire
+      description: A central Harrogate stay near the beautiful Yorkshire Dales, spread across five Victorian townhouses – includes breakfast, three-course dinner and more
+      price: 89
       price-description: per room per night
-      saved: 33
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
+      saved: 50
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/the-kimberley-hotel-harrogate-yorkshire/sale-hotel?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
-    - title: First Hotel Marin
-      id: first-hotel-marin
-      location: Bergen, Norway
-      description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-      price: 48
+    - title: Black Swan Hotel
+      id: black-swan-hotel
+      location: Helmsley, Yorkshire
+      description: A traditional coaching inn with an award-winning restaurant in the North Yorkshire market town of Helmsley – includes breakfast, three-course dinner and more
+      price: 159
       price-description: per room per night
-      saved: 43
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+      saved: 50
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/black-swan-hotel-helmsley-yorkshire/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
 
 
@@ -236,35 +184,24 @@
 
   offers:
 
-    - title: Spectacular Oslo & Bergen break with optional fjord tour
-      id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-      location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-      description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-      price: 459
-      price-description: per person for 4 nights
-      saved: 37
-      expires: 2020/04/14
-      link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-    - title: Farris Bad
-      id: farris-bad
-      location: Larvik, Norway
-      description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-      price: 214
+    - title: Lea Marston Hotel
+      id: lea-marston-hotel
+      location: Sutton Coldfield, West Midlands
+      description: A modern golf and spa hotel with AA Rosette dining in the Royal Town of Sutton Coldfield - includes breakfast, prosecco and afternoon tea
+      price: 99
       price-description: per room per night
-      saved: 33
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/lea-marston-hotel-sutton-coldfield-west-midlands/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
-    - title: First Hotel Marin
-      id: first-hotel-marin
-      location: Bergen, Norway
-      description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-      price: 48
+    - title: Nailcote Hall
+      id: nailcote-hall
+      location: Berkswell, Warwickshire
+      description: A 17th-century country home near Warwick and Birmingham, with a golf course and spa - includes generous golf and tea discounts, prosecco and optional dinner
+      price: 79
       price-description: per room per night
-      saved: 43
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+      saved: 45
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/nailcote-hall-berkswell-warwickshire-west-midlands/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
 
 
@@ -290,35 +227,24 @@
 
   offers:
 
-    - title: Spectacular Oslo & Bergen break with optional fjord tour
-      id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-      location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-      description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-      price: 459
-      price-description: per person for 4 nights
-      saved: 37
-      expires: 2020/04/14
-      link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-    - title: Farris Bad
-      id: farris-bad
-      location: Larvik, Norway
-      description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-      price: 214
+    - title: Lakeside Park Hotel & Spa
+      id: lakeside-park-hotel-spa
+      location: Ryde, Isle of Wight
+      description: Utter rest and relaxation at an elegant lakeside hotel with impressive spa facilities - including breakfast, dinner on one night, ferry transfers, prosecco and a massage
+      price: 143
       price-description: per room per night
-      saved: 33
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
+      saved: 65
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/lakeside-park-hotel-and-spa-ryde-isle-of-wight/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
-    - title: First Hotel Marin
-      id: first-hotel-marin
-      location: Bergen, Norway
-      description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-      price: 48
+    - title: Oxford Witney Hotel
+      id: oxford-witney-hotel
+      location: Witney, Oxfordshire
+      description: A stay in a charming Oxfordshire town near one of Downton Abbey's historic filming locations - including full English breakfast and dinner
+      price: 99
       price-description: per room per night
-      saved: 43
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/oxford-witney-hotel-witney-oxfordshire/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
 
 
@@ -345,35 +271,25 @@
 
   offers:
 
-    - title: Spectacular Oslo & Bergen break with optional fjord tour
-      id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-      location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-      description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-      price: 459
-      price-description: per person for 4 nights
-      saved: 37
-      expires: 2020/04/14
-      link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-    - title: Farris Bad
-      id: farris-bad
-      location: Larvik, Norway
-      description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-      price: 214
+    - title: Hog Deer Creek
+      id: hog-deer-creek
+      location: Port Lympne Reserve, Kent
+      description: Enjoy a luxury break in a wildlife reserve in Kent, with a unique shepherd's hut stay – includes animal park access and use of a golf buggy
+      price: 249
       price-description: per room per night
-      saved: 33
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
+      saved: 30
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/hog-deer-creek-port-lympne-reserve-kent/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
-    - title: First Hotel Marin
-      id: first-hotel-marin
-      location: Bergen, Norway
-      description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-      price: 48
+    - title: De Vere Wotton House
+      id: de-vere-wotton-house
+      location: Dorking, Surrey
+      description: A splendid Surrey sojourn in a historic country house with plenty of style - includes breakfast and dinner
+      price: 149
       price-description: per room per night
-      saved: 43
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+      saved: 40
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/de-vere-wotton-house-dorking-surrey/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
 
 
@@ -400,32 +316,22 @@
 
   offers:
 
-    - title: Spectacular Oslo & Bergen break with optional fjord tour
-      id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-      location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-      description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-      price: 459
-      price-description: per person for 4 nights
-      saved: 37
-      expires: 2020/04/14
-      link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
-
-    - title: Farris Bad
-      id: farris-bad
-      location: Larvik, Norway
-      description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-      price: 214
+    - title: Polurrian Bay Hotel
+      id: polurrian-bay-hotel
+      location: Mullion, Cornwall
+      description: A seaside Edwardian hotel overlooking the west Cornish coastline, with colour-pop interiors and an award-winning restaurant – includes breakfast and dinner allowance
+      price: 159
       price-description: per room per night
-      saved: 33
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
+      saved: 49
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/polurrian-bay-hotel-mullion-cornwall/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
-    - title: First Hotel Marin
-      id: first-hotel-marin
-      location: Bergen, Norway
-      description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-      price: 48
-      price-description: per room per night
-      saved: 43
-      expires: 2020/04/20
-      link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+    - title: Coastal Cabins
+      id: coastal-cabins
+      location: Hartland, Devon
+      description: A nautical-but-nice self-catering cabin by a scenic fishing lake on the North Devon coast, with delicious Devon fudge and prosecco - includes a family-friendly option
+      price: 115
+      price-description: per cabin per night
+      saved: 30
+      expires: 2018/06/20
+      link: https://www.secretescapes.com/coastal-cabins-hartland-devon/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage

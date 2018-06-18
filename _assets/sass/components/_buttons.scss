@@ -70,4 +70,12 @@
       background-color: rgba($white,.33);
     }
   }
+  &--inline-spacing-left {
+    margin-top: $s-4;
+    margin-right: $s0;
+    margin-bottom: $s-4;
+    & + & {
+      margin-right: 0;
+    }
+  }
 }

@@ -21,7 +21,7 @@ features:
     link: https://www.abelandcole.co.uk/producer/208/
 
   - id: wood-green-farm
-    title: Wood Green Farm
+    title: Wood Green farm
     description: Chris Labdon has been tending his organic chickens to the highest standards of welfare on his Wood Green farm in Devon for years and years. Chris’ chickens take months, not weeks, to grow. Their feet are made for walking (and that’s just what they’ll do). These chooks have plenty of time and space to explore the world, scratching and clucking about from first thing in the morning till last thing at night. All this time spent growing means they develop their muscles properly, so from breast to the thighs and wings...this is chicken that tastes like chicken. Some of the things Compassion in World Farming look for when bestowing a Good Chicken Award, apart from slow-growing birds, are lower stock density, and also “enrichment provision”. This means access to natural light, straw bales, perches, pecking objects and shelter outdoors. All of which Chris’ chickens enjoy in abundance. It's no surprise then that Chris received a Good Chicken Award from CWIF recently.
     link: https://www.abelandcole.co.uk/producer/202/
 ---
@@ -35,7 +35,7 @@ features:
   <div class="boxpad--xl width width--xl bg--lighter text--center shadow text--xxl">
     <p>{{page.intro}}</p>
     <p>Abel & Cole have 30 years of organic knowhow, sourcing the best of the fields and workshops the country has to offer. Even better, they’ll bundle it all up in a box and deliver it right to your door.</p>
-    <p>Working with growers, makers and bakers across the country, Abel & Cole handpick the finest produce, from fruit & veg boxes, to Recipe Boxes and plenty more to tickle the fancy of any appetite. If that weren’t enough, the bring it all in minimal, returnable recyclable packaging in yellow vans that use eco routes to spend less time on the roads.</p>
+    <p>Working with growers, makers and bakers across the country, Abel & Cole handpick the finest produce, from fruit & veg boxes, to Recipe Boxes and plenty more to tickle the fancy of any appetite. If that weren’t enough, they bring it all in minimal, returnable recyclable packaging in yellow vans that use eco routes to spend less time on the roads.</p>
   </div>
 
   <div class="space--xxxl"></div>
@@ -49,25 +49,20 @@ features:
     {% for feature in page.features %}
       <div class="col">
         <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');">
-          <a href="{{feature.link}}" class="bg-img__link"></a>
+          <a href="{{feature.link}}" class="bg-img__link" id="track-ac-{{feature.id}}-image"></a>
         </div>
         <div class="space--md"></div>
         <h3 class="title title--sm">{{feature.title}}</h3>
         <p class="text--normal">{{feature.description}}</p>
         <div class="space--sm"></div>
-        <a href="{{feature.link}}" class="btn btn--sm btn--outline btn--outline-red">Find out more</a>
+        <a href="{{feature.link}}" class="btn btn--sm btn--outline btn--outline-red" id="track-ac-{{feature.id}}-btn">Find out more</a>
         <div class="space--xl"></div>
       </div>
     {% endfor %}
   </div>
 
-
-
-
   <div class="space--xxxl"></div>
-  <div class="space--xl"></div>
 
 </div>
-
 
 {% include page/promo-competition.html %}

@@ -95,16 +95,6 @@
 
   offers:
 
-    - title: Barns Hotel
-      id: barns-hotel
-      location: Bedford, Bedfordshire
-      description: A country hotel in a 16th-century building overlooking the River Great Ouse, with full English breakfast and either afternoon tea or a bottle of prosecco and dinner allowance
-      price: 89
-      price-description: per room per night
-      saved: 62
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/barns-hotel-bedford-bedfordshire/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
-
     - title: The Kings Head Hotel
       id: the-kings-head-hotel
       location: Great Bircham, Norfolk

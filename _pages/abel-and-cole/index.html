@@ -4,7 +4,7 @@ id: food
 nav: true
 nav-order: 3
 title: Abel & Cole
-intro: You’ve seen the best of England’s story, now discover its best produce. With luxury stays and days traipsing through historic sites, you’re bound to whip up an appetite. Luckily, there’s organic foodies Abel & Cole to keep you going.
+intro: With 30 years’ expertise, Abel & Cole deliver brilliant, seasonal organic food and drink from independent producers we know and love, to homes up and down the country.
 bg-color: "#1a1f14"
 extra-logo: true
 
@@ -21,21 +21,31 @@ features:
     link: https://www.abelandcole.co.uk/producer/208/
 
   - id: wood-green-farm
-    title: Wood Green farm
-    description: Chris Labdon has been tending his organic chickens to the highest standards of welfare on his Wood Green farm in Devon for years and years. Chris’ chickens take months, not weeks, to grow. Their feet are made for walking (and that’s just what they’ll do). These chooks have plenty of time and space to explore the world, scratching and clucking about from first thing in the morning till last thing at night. All this time spent growing means they develop their muscles properly, so from breast to the thighs and wings...this is chicken that tastes like chicken. Some of the things Compassion in World Farming look for when bestowing a Good Chicken Award, apart from slow-growing birds, are lower stock density, and also “enrichment provision”. This means access to natural light, straw bales, perches, pecking objects and shelter outdoors. All of which Chris’ chickens enjoy in abundance. It's no surprise then that Chris received a Good Chicken Award from CWIF recently.
+    title: Wood Green Farm
+    description: Chris Labdon has been tending his organic chickens to the highest standards of welfare on his Wood Green Farm in Devon for years and years. Chris’ chickens take months, not weeks, to grow. Their feet are made for walking (and that’s just what they’ll do). These chooks have plenty of time and space to explore the world, scratching and clucking about from first thing in the morning till last thing at night. All this time spent growing means they develop their muscles properly, so from breast to the thighs and wings...this is chicken that tastes like chicken. Some of the things Compassion in World Farming look for when bestowing a Good Chicken Award, apart from slow-growing birds, are lower stock density, and also “enrichment provision”. This means access to natural light, straw bales, perches, pecking objects and shelter outdoors. All of which Chris’ chickens enjoy in abundance. It's no surprise then that Chris received a Good Chicken Award from CWIF recently.
     link: https://www.abelandcole.co.uk/producer/202/
 ---
 
 <div class="container">
 
-  <div class="text--center vpad--xxxxl text--white">
-    <h1 class="title title--xxxl">England’s <br>Foodie Heritage</h1>
+  <div class="text--center vpad--xxxl text--white">
+    <div class="width width--xl">
+      <h1 class="title title--xxxl">England’s <br>Foodie Heritage</h1>
+      <div class="space--sm"></div>
+      <h2 class="sub-title">Unearth the best organic food & drink with Abel & Cole</h2>
+    </div>
   </div>
 
   <div class="boxpad--xl width width--xl bg--lighter text--center shadow text--xxl">
     <p>{{page.intro}}</p>
-    <p>Abel & Cole have 30 years of organic knowhow, sourcing the best of the fields and workshops the country has to offer. Even better, they’ll bundle it all up in a box and deliver it right to your door.</p>
-    <p>Working with growers, makers and bakers across the country, Abel & Cole handpick the finest produce, from fruit & veg boxes, to Recipe Boxes and plenty more to tickle the fancy of any appetite. If that weren’t enough, they bring it all in minimal, returnable recyclable packaging in yellow vans that use eco routes to spend less time on the roads.</p>
+    <p>Even better, it all comes in minimal, recyclable, returnable packaging, delivered by eco yellow vans that spend less time on the roads.</p>
+    <p>Discover English Heritage landmarks, then come home to discover real food.</p>
+    <div class="width width--md space--lg">
+      <p class="ac-promo">Enjoy 50% off your first and fourth Abel & Cole boxes, plus four free foodie surprises.</p>
+      <p class="sign-up-code">Enter code <strong class="text--bolder text--a-c">HERITAGE</strong> to claim</p>
+      <div class="space--md"></div>
+      <a href="https://www.abelandcole.co.uk/promos/heritage?utm_source=secretescapes&utm_medium=achub" class="btn btn--lg btn--a-c" id="track-ac-promo">Claim Now</a>
+    </div>
   </div>
 
   <div class="space--xxxl"></div>
@@ -45,21 +55,21 @@ features:
     <div class="space--xxl"></div>
   </div>
 
-  <div class="row row--xl-6-6 row--gutters-lg text--white text--center">
-    {% for feature in page.features %}
-      <div class="col">
-        <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');">
+  {% for feature in page.features %}
+    <div class="bob{% cycle '', ' bob--swap' %}">
+      <div class="bob__img">
+        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');">
           <a href="{{feature.link}}" class="bg-img__link" id="track-ac-{{feature.id}}-image"></a>
         </div>
-        <div class="space--md"></div>
+      </div>
+      <div class="bob__text text--white">
         <h3 class="title title--sm">{{feature.title}}</h3>
         <p class="text--normal">{{feature.description}}</p>
         <div class="space--sm"></div>
-        <a href="{{feature.link}}" class="btn btn--sm btn--outline btn--outline-red" id="track-ac-{{feature.id}}-btn">Find out more</a>
-        <div class="space--xl"></div>
+        <a href="{{feature.link}}" class="btn btn--sm btn--outline btn--outline-ac" id="track-ac-{{feature.id}}-btn">Find out more</a>
       </div>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 
   <div class="space--xxxl"></div>
 

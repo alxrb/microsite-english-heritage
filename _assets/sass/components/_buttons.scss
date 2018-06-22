@@ -23,6 +23,9 @@
   &--beige { background-color: #cac0aa;
     &:hover { background-color: #bfb7a6; }
   }
+  &--a-c { background-color: $ac-orange;
+    &:hover { background-color: darken($ac-orange,5); }
+  }
   &--outline {
     color: inherit;
     &:before {
@@ -54,6 +57,14 @@
       color: $white;
       background-color: $eh-red;
       &:before { border-color: $eh-red; }
+    }
+  }
+  &--outline-ac {
+    &:before { border-color: $ac-orange; }
+    &:hover {
+      color: $white;
+      background-color: $ac-orange;
+      &:before { border-color: $ac-orange; }
     }
   }
   &--outline-grey-transparent {

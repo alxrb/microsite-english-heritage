@@ -17,15 +17,25 @@
 
   offers:
 
-    - title: Battlesteads Hotel & Restaurant
-      id: battlesteads-hotel-restaurant
-      location: Hexham, Northumberland
-      description: A small, eco-friendly Northumberland hotel in a picture-perfect village on the edge of a national park, with breakfast and an eight-course tasting menu dinner
-      price: 89
+    - title: Rockliffe Hall
+      id: rockliffe-hall
+      location: Darlington, County Durham
+      description: An award-winning five-star Durham hotel, with golf, fine dining and a luxe spa - includes breakfast, optional dinner, spa perks and more
+      price: 175
       price-description: per room per night
-      saved: 48
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/battlesteads-hotel-and-restaurant-hexham-northumberland/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+      saved: 39
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/rockliffe-hall-darlington-county-durham/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
+
+    - title: Whitworth Hall Hotel
+      id: whitworth-hall-hotel
+      location: Spennymoor, Durham
+      description: A Grade II-listed property set in a tranquil country deer park near Durham - includes breakfast, late check-out and dinner with wine
+      price: 75
+      price-description: per room per night
+      saved: 66
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/whitworth-hall-hotel-spennymoor-durham/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 
 ################################################################################
@@ -51,24 +61,25 @@
 
   offers:
 
-    - title: Whitbarrow Hotel
-      id: whitbarrow-hotel
-      location: Penrith, Lake District
-      description: A suite stay at a cosy hotel in the Lake District, with views of the beautiful Blencathra Fell, including breakfast and a glass of prosecco on arrival
-      price: 99
-      price-description: per suite per night
-      saved: 49
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/whitbarrow-hotel-penrith-lake-district1/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+    - title: Hipping Hall
+      id: hipping-hall
+      location: Kirkby Lonsdale, Lake District
+      description: A five-star boutique in a stylishly restored 15th-century hamlet near the Lake District, with three AA Rosette-awarded restaurant - breakfast included
+      price: 109
+      price-description: per room per night
+      saved: 45
+      expires: 2018/07/25
+      link: https://www.secretescapes.com/hipping-hall-kirkby-lonsdale-lake-district/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
-    - title: Parson Lee Farm Glamping
-      id: parson-lee-farm-glamping
-      location: Trawden, Lancashire
-      description: Adults-only glamping in a luxury yurt among beautiful countryside straight from the pages of a Brontë sister classic
-      price: 59
-      price-description: per yurt per night
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/parson-lee-farm-glamping-trawden-lancashire/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+    - title: Best Western Plus Castle Inn Hotel
+      id: best-western-plus-castle-inn-hotel
+      location: Keswick, Lake District
+      description: A Lake District stay amid some of England’s most soul-stirring landscapes, with a spa, tennis court and putting green - breakfast and dinner options included
+      price: 89
+      price-description: per room per night
+      saved: 55
+      expires: 2018/07/25
+      link: https://www.secretescapes.com/best-western-plus-castle-inn-hotel-keswick-lake-district/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 
 
@@ -95,15 +106,25 @@
 
   offers:
 
-    - title: The Kings Head Hotel
-      id: the-kings-head-hotel
-      location: Great Bircham, Norfolk
-      description: A country hotel in a quaint village near the Sandringham Estate, with breakfast and two-course dinner
-      price: 105
+    - title: Poets House
+      id: poets-house
+      location: Ely, Cambridgeshire
+      description: A luxury Grade II-listed hotel dating back to the early 1900s in the heart of historic Ely, with beautiful monochromatic interiors - breakfast and cream tea included
+      price: 139
       price-description: per room per night
-      saved: 30
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/the-kings-head-hotel-great-bircham-norfolk/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+      saved: 44
+      expires: 2018/07/25
+      link: https://www.secretescapes.com/poets-house-ely-cambridgeshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
+
+    - title: Aubrey Park Hotel
+      id: aubrey-park-hotel
+      location: St Albans, Hertfordshire
+      description: A scenic Hertfordshire stay with AA Rosette-awarded dining - includes breakfast and dinner credit
+      price: 119
+      price-description: per room per night
+      saved: 42
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/aubrey-park-hotel-st-albans-hertfordshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 
 
@@ -130,25 +151,24 @@
 
   offers:
 
-    - title: The Kimberley Hotel
-      id: the-kimberley-hotel
-      location: Harrogate, Yorkshire
-      description: A central Harrogate stay near the beautiful Yorkshire Dales, spread across five Victorian townhouses – includes breakfast, three-course dinner and more
+    - title: Clarion Cedar Court Hotel Leeds/Bradford
+      id: clarion-cedar-court-hotel-leeds-bradford
+      location: Bradford, West Yorkshire
+      description: A bright and contemporary hotel with wellness facilities, near the centre of Bradford and Leeds, with the Peak District and Yorkshire Dales within reach
+      price: 55
+      price-description: per room per night
+      saved: 60
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/clarion-cedar-court-hotel-bradford-bradford-west-yorkshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
+
+    - title: Bagden Hall Hotel
+      id: bagden-hall-hotel
+      location: Denby Dale, West Yorkshire
+      description: A scenic country retreat near Brontë Country in West Yorkshire, with breakfast and a two-course dinner
       price: 89
       price-description: per room per night
-      saved: 50
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/the-kimberley-hotel-harrogate-yorkshire/sale-hotel?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
-
-    - title: Black Swan Hotel
-      id: black-swan-hotel
-      location: Helmsley, Yorkshire
-      description: A traditional coaching inn with an award-winning restaurant in the North Yorkshire market town of Helmsley – includes breakfast, three-course dinner and more
-      price: 159
-      price-description: per room per night
-      saved: 50
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/black-swan-hotel-helmsley-yorkshire/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/bagden-hall-hotel-denby-dale-west-yorkshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 
 
@@ -174,24 +194,25 @@
 
   offers:
 
-    - title: Lea Marston Hotel
-      id: lea-marston-hotel
-      location: Sutton Coldfield, West Midlands
-      description: A modern golf and spa hotel with AA Rosette dining in the Royal Town of Sutton Coldfield - includes breakfast, prosecco and afternoon tea
-      price: 99
+    - title: Best Western Premier Yew Lodge Hotel
+      id: best-western-premier-yew-lodge-hotel
+      location: Kegworth, Derby
+      description: A relaxing spa hotel close to Derby and Nottingham, with a Marco Pierre White restaurant - includes breakfast and two-course dinner options
+      price: 90
       price-description: per room per night
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/lea-marston-hotel-sutton-coldfield-west-midlands/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+      saved: 49
+      expires: 2018/07/25
+      link: https://www.secretescapes.com/best-western-premier-yew-lodge-hotel-kegworth-derby/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
-    - title: Nailcote Hall
-      id: nailcote-hall
-      location: Berkswell, Warwickshire
-      description: A 17th-century country home near Warwick and Birmingham, with a golf course and spa - includes generous golf and tea discounts, prosecco and optional dinner
-      price: 79
+    - title: The Billesley Manor Hotel
+      id: the-billesley-manor-hotel
+      location: Stratford-upon-Avon, Warwickshire
+      description: An elegant Elizabethan hotel in picturesque Shakespeare Country, with an indoor pool and massage services – includes spa access, dinner options and a bottle of wine
+      price: 139
       price-description: per room per night
-      saved: 45
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/nailcote-hall-berkswell-warwickshire-west-midlands/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+      saved: 50
+      expires: 2018/07/25
+      link: https://www.secretescapes.com/the-billesley-manor-hotel-stratford-upon-avon-warwickshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 
 
@@ -221,20 +242,11 @@
       id: lakeside-park-hotel-spa
       location: Ryde, Isle of Wight
       description: Utter rest and relaxation at an elegant lakeside hotel with impressive spa facilities - including breakfast, dinner on one night, ferry transfers, prosecco and a massage
-      price: 143
+      price: 146
       price-description: per room per night
       saved: 65
-      expires: 2018/06/20
+      expires: 2018/07/18
       link: https://www.secretescapes.com/lakeside-park-hotel-and-spa-ryde-isle-of-wight/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
-
-    - title: Oxford Witney Hotel
-      id: oxford-witney-hotel
-      location: Witney, Oxfordshire
-      description: A stay in a charming Oxfordshire town near one of Downton Abbey's historic filming locations - including full English breakfast and dinner
-      price: 99
-      price-description: per room per night
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/oxford-witney-hotel-witney-oxfordshire/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
 
 
 
@@ -261,25 +273,25 @@
 
   offers:
 
-    - title: Hog Deer Creek
-      id: hog-deer-creek
-      location: Port Lympne Reserve, Kent
-      description: Enjoy a luxury break in a wildlife reserve in Kent, with a unique shepherd's hut stay – includes animal park access and use of a golf buggy
-      price: 249
+    - title: Albion House
+      id: albion-house
+      location: Ramsgate, Kent
+      description: A stylish seaside stay at a plush boutique hotel in Ramsgate, including breakfast and a sea-view room
+      price: 125
       price-description: per room per night
-      saved: 30
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/hog-deer-creek-port-lympne-reserve-kent/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+      saved: 26
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/albion-house-ramsgate-kent/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
-    - title: De Vere Wotton House
-      id: de-vere-wotton-house
-      location: Dorking, Surrey
-      description: A splendid Surrey sojourn in a historic country house with plenty of style - includes breakfast and dinner
-      price: 149
+    - title: Sands Hotel
+      id: sands-hotel
+      location: Margate, Kent
+      description: An award-winning boutique townhouse in the coastal town of Margate - breakfast and a choice of rooms included
+      price: 112
       price-description: per room per night
-      saved: 40
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/de-vere-wotton-house-dorking-surrey/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+      saved: 28
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/sands-hotel-margate-kent/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 
 
@@ -306,22 +318,22 @@
 
   offers:
 
-    - title: Polurrian Bay Hotel
-      id: polurrian-bay-hotel
-      location: Mullion, Cornwall
-      description: A seaside Edwardian hotel overlooking the west Cornish coastline, with colour-pop interiors and an award-winning restaurant – includes breakfast and dinner allowance
-      price: 159
+    - title: The Cornwall Hotel, Spa & Estate
+      id: the-cornwall-hotel-spa-estate
+      location: St Austell, Cornwall
+      description: A luxury 19th-century, country-chic spa hotel near the Eden Project – includes breakfast and treatment discounts, plus optional dinner and spa access
+      price: 155
       price-description: per room per night
-      saved: 49
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/polurrian-bay-hotel-mullion-cornwall/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+      saved: 36
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/the-cornwall-hotel-spa-and-estate-st-austell-cornwall1/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
-    - title: Coastal Cabins
-      id: coastal-cabins
-      location: Hartland, Devon
-      description: A nautical-but-nice self-catering cabin by a scenic fishing lake on the North Devon coast, with delicious Devon fudge and prosecco - includes a family-friendly option
-      price: 115
-      price-description: per cabin per night
-      saved: 30
-      expires: 2018/06/20
-      link: https://www.secretescapes.com/coastal-cabins-hartland-devon/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=EnglishHeritage
+    - title: The Land's End Hotel
+      id: the-land-s-end-hotel
+      location: Land's End, Cornwall
+      description: A charming clifftop hotel set on Cornwall's captivating coast, overlooking the Atlantic Ocean, including breakfast and Cornish cream tea
+      price: 59
+      price-description: per room per night
+      saved: 60
+      expires: 2018/07/18
+      link: https://www.secretescapes.com/the-lands-end-hotel-lands-end-cornwall/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018

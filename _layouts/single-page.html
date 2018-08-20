@@ -64,25 +64,33 @@
 
             <div class="space--xxxl"></div>
 
-            <h3 class="title title--lg text--center title--color">{{section.title}} Offers</h3>
+            <!-- get offers for this section -->
+            {% assign section-offers = site.data.offers | where: 'section', section.id %}
+            {% assign section-offers-size = section-offers.size %}
 
-            <div class="space--lg"></div>
+            <!-- put in section if there are offers -->
+            {% if section-offers-size != 0 %}
 
-            {% assign offers = section.offers %}
-            {% assign offer-amount = offers | size %}
+              <h3 class="title title--lg text--center title--color">{{section.title}} Offers</h3>
+              <div class="space--lg"></div>
 
-            {% if offer-amount == 1 %}
-              {% for offer in section.offers %}
-                {% include offer/offer-sm.html %}
-              {% endfor %}
-            {% else %}
+              <!-- are there multiple columns? -->
+              {% if section-offers-size == 1 %}
+                <!-- one column -->
+                {% for offer in section-offers %}
+                  {% include offer/offer-sm.html %}
+                {% endfor %}
+              {% else %}
               <div class="row row--xl-6-6">
-                {% for offer in section.offers %}
+                <!-- two columns -->
+                {% for offer in section-offers %}
                   <div class="col">
                     {% include offer/offer-sm.html %}
                   </div>
                 {% endfor %}
               </div>
+              {% endif %}
+
             {% endif %}
 
           </div>

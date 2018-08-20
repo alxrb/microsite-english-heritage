@@ -1,0 +1,128 @@
+- title: Albion House
+  section: south-east
+  id: albion-house
+  location: Ramsgate, Kent
+  description: A stylish seaside stay at a plush boutique hotel in Ramsgate, including breakfast and a sea-view room
+  price: 125
+  price-description: per room per night
+  saved: 26
+  expires: 2018/08/22
+  link: https://www.secretescapes.com/albion-house-ramsgate-kent/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
+
+- title: Sands Hotel
+  section: south-east
+  id: sands-hotel
+  location: Margate, Kent
+  description: An award-winning boutique townhouse in the coastal town of Margate - breakfast and a choice of rooms included
+  price: 112
+  price-description: per room per night
+  saved: 28
+  expires: 2018/08/22
+  link: https://www.secretescapes.com/sands-hotel-margate-kent/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
+
+- title: Whitworth Hall Hotel
+  section: north-east
+  id: whitworth-hall-hotel
+  location: Spennymoor, Durham
+  description: A Grade II-listed property set in a tranquil country deer park near Durham - includes breakfast, late check-out and dinner with wine
+  price: 75
+  price-description: per room per night
+  saved: 66
+  expires: 2018/08/22
+  link: https://www.secretescapes.com/whitworth-hall-hotel-spennymoor-durham/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
+
+- title: Clarion Cedar Court Hotel Leeds/Bradford
+  section: yorkshire
+  id: clarion-cedar-court-hotel-leeds-bradford
+  location: Bradford, West Yorkshire
+  description: A bright and contemporary hotel with wellness facilities, near the centre of Bradford and Leeds, with the Peak District and Yorkshire Dales within reach
+  price: 55
+  price-description: per room per night
+  saved: 60
+  expires: 2018/08/22
+  link: https://www.secretescapes.com/clarion-cedar-court-hotel-bradford-bradford-west-yorkshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
+
+- title: Lovelady Shield Country House Hotel
+  section: north-west
+  id: lovelady-shield-country-house-hotel
+  location: Alston, Cumbria
+  description: A charming country retreat with a raved-about restaurant, near the River Nent – includes breakfast and seven-course tasting menu dinner options
+  price: 94
+  price-description: per room per night
+  saved: 51
+  expires: 2018/08/22
+  link: https://www.secretescapes.com/lovelady-shield-country-house-hotel-alston-cumbria/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
+
+- title: Ardencote
+  section: midlands
+  id: ardencote
+  location: Near Warwick, Warwickshire
+  description: An elegant country house hotel in the wonderful Warwickshire countryside, with unrivalled leisure facilities and an AA-Rosetted brasserie – includes breakfast, dinner options and more
+  price: 99
+  price-description: per room per night
+  saved: 38
+  expires: 2018/08/22
+  link: https://www.secretescapes.com/ardencote-near-warwick-warwickshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
+
+- title: Mermaid Inn
+  section: south-east
+  id: mermaid-inn
+  location: Rye, East Sussex
+  description: A historic smugglers' inn with award-winning dining in Rye - includes breakfast and optional dinner
+  price: 99
+  price-description: per room per night
+  expires: 2018/08/22
+  link: https://www.secretescapes.com/mermaid-inn-rye-east-sussex/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
+
+- title: The Cheviot Hotel
+  section: north-east
+  id: the-cheviot-hotel
+  location: Bellingham, Northumberland
+  description: A recently refurbished cosy village inn on the cusp of Northumberland National Park, with breakfast and a two-course dinner on the first night
+  price: 50
+  price-description: per room per night
+  saved: 57
+  expires: 2018/08/29
+  link: https://www.secretescapes.com/the-cheviot-hotel-bellingham-northumberland/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
+
+- title: Crowne Plaza Leeds
+  section: yorkshire
+  id: crowne-plaza-leeds
+  location: Leeds, Yorkshire
+  description: A modern hotel stay with fantastic dining and wellness facilities in central Leeds - includes breakfast, an optional dinner and lovely perks
+  price: 89
+  price-description: per room per night
+  expires: 2018/08/29
+  link: https://www.secretescapes.com/crowne-plaza-leeds-leeds-yorkshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
+
+- title: Boutique Cornwall beach retreat with sea views
+  section: south-west
+  id: boutique-cornwall-beach-retreat-with-sea-views
+  location: Tolcarne Beach Village, Newquay
+  description: A luxurious boutique base right on the sands of Tolcarne Beach in Newquay, including breakfast, a half-bottle of champagne and a beach chalet option
+  price: 115
+  price-description: per room per night
+  saved: 45
+  expires: 2018/08/29
+  link: https://www.secretescapes.com/boutique-cornwall-beach-retreat-with-sea-views-tolcarne-beach-village-newquay/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
+
+- title: Charming Lake District escape
+  section: north-west
+  id: charming-lake-district-escape
+  location: Inn on the Lake, Ullswater
+  description: A quintessentially English country house hotel on Lake Ullswater, with an award-winning restaurant - breakfast, dinner and cream tea included
+  price: 169
+  price-description: per room per night
+  saved: 49
+  expires: 2018/08/29
+  link: https://www.secretescapes.com/inn-on-the-lake-glenridding-lake-district/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
+
+- title: The Holt Hotel
+  section: south
+  id: the-holt-hotel
+  location: Steeple Aston, Oxfordshire
+  description: Stay in a beautiful and historic property in the heart of Oxfordshire, with easy access to the Cotswolds - breakfast, afternoon tea and prosecco included
+  price: 99
+  price-description: per room per night
+  expires: 2018/08/29
+  link: https://www.secretescapes.com/the-holt-hotel-steeple-aston-oxfordshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018

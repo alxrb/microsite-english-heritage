@@ -6,7 +6,7 @@
   price: 125
   price-description: per room per night
   saved: 26
-  expires: 2018/08/22
+  expires: 2018/08/30
   link: https://www.secretescapes.com/albion-house-ramsgate-kent/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 - title: Sands Hotel
@@ -17,7 +17,7 @@
   price: 112
   price-description: per room per night
   saved: 28
-  expires: 2018/08/22
+  expires: 2018/08/30
   link: https://www.secretescapes.com/sands-hotel-margate-kent/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 - title: Whitworth Hall Hotel
@@ -28,7 +28,7 @@
   price: 75
   price-description: per room per night
   saved: 66
-  expires: 2018/08/22
+  expires: 2018/08/30
   link: https://www.secretescapes.com/whitworth-hall-hotel-spennymoor-durham/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 - title: Clarion Cedar Court Hotel Leeds/Bradford
@@ -39,7 +39,7 @@
   price: 55
   price-description: per room per night
   saved: 60
-  expires: 2018/08/22
+  expires: 2018/08/30
   link: https://www.secretescapes.com/clarion-cedar-court-hotel-bradford-bradford-west-yorkshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=July2018
 
 - title: Lovelady Shield Country House Hotel
@@ -50,7 +50,7 @@
   price: 94
   price-description: per room per night
   saved: 51
-  expires: 2018/08/22
+  expires: 2018/08/25
   link: https://www.secretescapes.com/lovelady-shield-country-house-hotel-alston-cumbria/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
 
 - title: Ardencote
@@ -61,7 +61,7 @@
   price: 99
   price-description: per room per night
   saved: 38
-  expires: 2018/08/22
+  expires: 2018/08/30
   link: https://www.secretescapes.com/ardencote-near-warwick-warwickshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
 
 - title: Mermaid Inn
@@ -71,7 +71,7 @@
   description: A historic smugglers' inn with award-winning dining in Rye - includes breakfast and optional dinner
   price: 99
   price-description: per room per night
-  expires: 2018/08/22
+  expires: 2018/08/30
   link: https://www.secretescapes.com/mermaid-inn-rye-east-sussex/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
 
 - title: The Cheviot Hotel
@@ -126,3 +126,14 @@
   price-description: per room per night
   expires: 2018/08/29
   link: https://www.secretescapes.com/the-holt-hotel-steeple-aston-oxfordshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
+
+- title: Sophisticated boutique Cambridge stay
+  section: east
+  id: sophisticated-boutique-cambridge-stay
+  location: Gorgeous designer-led Cambridge hotel, with an ideal location by the train station - including full English breakfast and a welcome cocktail
+  description: Tamburlaine, Cambridge
+  price: 139
+  price-description: per room per night
+  saved: 34
+  expires: 2018/08/29
+  link: https://www.secretescapes.com/tamburlaine-cambridge-cambridgeshire/sale?utm_source=SE_Media&utm_medium=EnglishHeritage&utm_campaign=Aug2018
